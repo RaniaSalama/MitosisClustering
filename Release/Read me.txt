@@ -1,0 +1,6 @@
+To run Mitotsis, please type in the command line:
+Java -jar mitosis.jar [f] [k] [inputFilename] [patternNumber] [distanceMethod(euclidean,pearson)] [outlierHandlingUsage(0,1)] [outputFile] [draw(0,1)]
+
+For example:
+Java -jar mitosis.jar 2.25 2.6 t7.10k.dat 10000 euclidean 1 t7.10k-outputFile.txt 1
+Java -jar mitosis.jar 2.15 2.5 t8.8k.dat 8000 euclidean 1 t8.8k-outputFile.txt 1
